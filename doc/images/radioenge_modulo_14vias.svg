@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="790" viewBox="0 0 1240 790" role="img" aria-label="Módulo GWLORA da Radioenge — conector de 14 vias">
+<title>Radioenge GWLORA v1 — conector de 14 vias com os GPIOs do ESP32</title>
+<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#d1d5db"/><line x1="0" y1="0" x2="0" y2="6" stroke="#9ca3af" stroke-width="3"/></pattern><filter id="sh" x="-5%" y="-5%" width="110%" height="115%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.18"/></filter><linearGradient id="pcb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e293b"/><stop offset="1" stop-color="#0f172a"/></linearGradient><linearGradient id="pcbS3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e3a5f"/><stop offset="1" stop-color="#0b2540"/></linearGradient><linearGradient id="hat" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#065f46"/><stop offset="1" stop-color="#064e3b"/></linearGradient><linearGradient id="rdg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e3a8a"/><stop offset="1" stop-color="#172554"/></linearGradient></defs>
+<rect x="1" y="1" width="1238" height="788" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+<text x="620.0" y="44.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#0f172a" text-anchor="middle" font-weight="700" >Módulo Radioenge GWLORA v1 — ligação direta pelo conector de 14 vias</text>
+<text x="620.0" y="72.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal" >Sem o shield de 40 pinos · passo de 2,54 mm · Tabela 7 / Figura 3 do manual da Radioenge</text>
+<rect x="80" y="110" width="1080" height="200" rx="14" fill="url(#rdg)" filter="url(#sh)"/>
+<text x="130.0" y="150.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#bfdbfe" text-anchor="start" font-weight="700" >GWLORA v1</text>
+<text x="130.0" y="172.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#cbd5e1" text-anchor="start" font-weight="normal" >SX1301 + 2× SX1257 · GPS u-blox (RD43HATGPS)</text>
+<text x="1110.0" y="150.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#cbd5e1" text-anchor="end" font-weight="600" >RF (SMA)  ·  GPS (SMA)</text>
+<rect x="210" y="246" width="820" height="44" rx="6" fill="#111827"/>
+<circle cx="250" cy="268" r="12" fill="#1f2937" stroke="#fbbf24" stroke-width="2.5"/>
+<text x="250.0" y="272.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#fff" text-anchor="middle" font-weight="700" >1</text>
+<circle cx="307" cy="268" r="12" fill="#1f2937" stroke="#fbbf24" stroke-width="2.5"/>
+<text x="307.0" y="272.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#fff" text-anchor="middle" font-weight="700" >2</text>
+<circle cx="364" cy="268" r="12" fill="#dc2626" stroke="#fbbf24" stroke-width="2.5"/>
+<text x="364.0" y="272.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#fff" text-anchor="middle" font-weight="700" >3</text>
+<circle cx="421" cy="268" r="12" fill="#dc2626" stroke="#fbbf24" stroke-width="2.5"/>
+<text x="421.0" y="272.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#fff" text-anchor="middle" font-weight="700" >4</text>
+<circle cx="478" cy="268" r="12" fill="#ea580c" stroke="#fbbf24" stroke-width="2.5"/>
+<text x="478.0" y="272.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#fff" text-anchor="middle" font-weight="700" >5</text>
+<circle cx="535" cy="268" r="12" fill="#2563eb" stroke="#fbbf24" stroke-width="2.5"/>
+<text x="535.0" y="272.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#fff" text-anchor="middle" font-weight="700" >6</text>
+<circle cx="592" cy="268" r="12" fill="#2563eb" stroke="#fbbf24" stroke-width="2.5"/>
+<text x="592.0" y="272.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#fff" text-anchor="middle" font-weight="700" >7</text>
+<circle cx="649" cy="268" r="12" fill="#2563eb" stroke="#fbbf24" stroke-width="2.5"/>
+<text x="649.0" y="272.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#fff" text-anchor="middle" font-weight="700" >8</text>
+<circle cx="706" cy="268" r="12" fill="#2563eb" stroke="#fbbf24" stroke-width="2.5"/>
+<text x="706.0" y="272.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#fff" text-anchor="middle" font-weight="700" >9</text>
+<circle cx="763" cy="268" r="12" fill="#9ca3af" stroke="#fbbf24" stroke-width="2.5"/>
+<text x="763.0" y="272.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#fff" text-anchor="middle" font-weight="700" >10</text>
+<circle cx="820" cy="268" r="12" fill="#9ca3af" stroke="#fbbf24" stroke-width="2.5"/>
+<text x="820.0" y="272.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#fff" text-anchor="middle" font-weight="700" >11</text>
+<circle cx="877" cy="268" r="12" fill="#9ca3af" stroke="#fbbf24" stroke-width="2.5"/>
+<text x="877.0" y="272.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#fff" text-anchor="middle" font-weight="700" >12</text>
+<circle cx="934" cy="268" r="12" fill="#9333ea" stroke="#fbbf24" stroke-width="2.5"/>
+<text x="934.0" y="272.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#fff" text-anchor="middle" font-weight="700" >13</text>
+<circle cx="991" cy="268" r="12" fill="#9333ea" stroke="#fbbf24" stroke-width="2.5"/>
+<text x="991.0" y="272.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#fff" text-anchor="middle" font-weight="700" >14</text>
+<text x="620.0" y="350.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle" font-weight="700" >Pino do módulo → GPIO</text>
+<text x="140.0" y="380.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#475569" text-anchor="middle" font-weight="700" >Pino</text>
+<text x="330.0" y="380.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#475569" text-anchor="middle" font-weight="700" >Função no módulo</text>
+<text x="520.0" y="380.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#475569" text-anchor="middle" font-weight="700" >Sentido</text>
+<text x="720.0" y="380.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#475569" text-anchor="middle" font-weight="700" >ESP32 (esp32)</text>
+<text x="960.0" y="380.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#475569" text-anchor="middle" font-weight="700" >ESP32-S3 (n16r8 / n32r16v)</text>
+<rect x="80" y="388" width="1080" height="22" rx="4" fill="#f1f5f9"/>
+<circle cx="140" cy="399" r="9" fill="#1f2937"/>
+<text x="140.0" y="402.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="700" >1</text>
+<text x="330.0" y="404.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#1f2937" text-anchor="middle" font-weight="700" >GND</text>
+<text x="520.0" y="404.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="normal" >—</text>
+<text x="720.0" y="404.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#1f2937" text-anchor="middle" font-weight="700" >GND</text>
+<text x="960.0" y="404.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#1f2937" text-anchor="middle" font-weight="700" >GND</text>
+<circle cx="140" cy="421" r="9" fill="#1f2937"/>
+<text x="140.0" y="424.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="700" >2</text>
+<text x="330.0" y="426.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#1f2937" text-anchor="middle" font-weight="700" >GND</text>
+<text x="520.0" y="426.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="normal" >—</text>
+<text x="720.0" y="426.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#1f2937" text-anchor="middle" font-weight="700" >GND</text>
+<text x="960.0" y="426.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#1f2937" text-anchor="middle" font-weight="700" >GND</text>
+<rect x="80" y="432" width="1080" height="22" rx="4" fill="#f1f5f9"/>
+<circle cx="140" cy="443" r="9" fill="#dc2626"/>
+<text x="140.0" y="446.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="700" >3</text>
+<text x="330.0" y="448.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#dc2626" text-anchor="middle" font-weight="700" >+5VCC</text>
+<text x="520.0" y="448.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="normal" >ESP32 → módulo</text>
+<text x="720.0" y="448.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#dc2626" text-anchor="middle" font-weight="700" >5V/VIN</text>
+<text x="960.0" y="448.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#dc2626" text-anchor="middle" font-weight="700" >5V</text>
+<circle cx="140" cy="465" r="9" fill="#dc2626"/>
+<text x="140.0" y="468.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="700" >4</text>
+<text x="330.0" y="470.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#dc2626" text-anchor="middle" font-weight="700" >+5VCC</text>
+<text x="520.0" y="470.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="normal" >ESP32 → módulo</text>
+<text x="720.0" y="470.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#dc2626" text-anchor="middle" font-weight="700" >5V/VIN</text>
+<text x="960.0" y="470.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#dc2626" text-anchor="middle" font-weight="700" >5V</text>
+<rect x="80" y="476" width="1080" height="22" rx="4" fill="#f1f5f9"/>
+<circle cx="140" cy="487" r="9" fill="#ea580c"/>
+<text x="140.0" y="490.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="700" >5</text>
+<text x="330.0" y="492.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#ea580c" text-anchor="middle" font-weight="700" >RESET</text>
+<text x="520.0" y="492.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="normal" >ESP32 → módulo</text>
+<text x="720.0" y="492.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#ea580c" text-anchor="middle" font-weight="700" >GPIO4</text>
+<text x="960.0" y="492.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#ea580c" text-anchor="middle" font-weight="700" >GPIO6</text>
+<circle cx="140" cy="509" r="9" fill="#2563eb"/>
+<text x="140.0" y="512.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="700" >6</text>
+<text x="330.0" y="514.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#2563eb" text-anchor="middle" font-weight="700" >SCK</text>
+<text x="520.0" y="514.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="normal" >ESP32 → módulo</text>
+<text x="720.0" y="514.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#2563eb" text-anchor="middle" font-weight="700" >GPIO18</text>
+<text x="960.0" y="514.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#2563eb" text-anchor="middle" font-weight="700" >GPIO12</text>
+<rect x="80" y="520" width="1080" height="22" rx="4" fill="#f1f5f9"/>
+<circle cx="140" cy="531" r="9" fill="#2563eb"/>
+<text x="140.0" y="534.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="700" >7</text>
+<text x="330.0" y="536.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#2563eb" text-anchor="middle" font-weight="700" >MISO</text>
+<text x="520.0" y="536.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="normal" >módulo → ESP32</text>
+<text x="720.0" y="536.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#2563eb" text-anchor="middle" font-weight="700" >GPIO19</text>
+<text x="960.0" y="536.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#2563eb" text-anchor="middle" font-weight="700" >GPIO13</text>
+<circle cx="140" cy="553" r="9" fill="#2563eb"/>
+<text x="140.0" y="556.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="700" >8</text>
+<text x="330.0" y="558.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#2563eb" text-anchor="middle" font-weight="700" >MOSI</text>
+<text x="520.0" y="558.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="normal" >ESP32 → módulo</text>
+<text x="720.0" y="558.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#2563eb" text-anchor="middle" font-weight="700" >GPIO23</text>
+<text x="960.0" y="558.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#2563eb" text-anchor="middle" font-weight="700" >GPIO11</text>
+<rect x="80" y="564" width="1080" height="22" rx="4" fill="#f1f5f9"/>
+<circle cx="140" cy="575" r="9" fill="#2563eb"/>
+<text x="140.0" y="578.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="700" >9</text>
+<text x="330.0" y="580.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#2563eb" text-anchor="middle" font-weight="700" >CSN</text>
+<text x="520.0" y="580.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="normal" >ESP32 → módulo</text>
+<text x="720.0" y="580.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#2563eb" text-anchor="middle" font-weight="700" >GPIO5</text>
+<text x="960.0" y="580.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#2563eb" text-anchor="middle" font-weight="700" >GPIO10</text>
+<circle cx="140" cy="597" r="9" fill="#9ca3af"/>
+<text x="140.0" y="600.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="700" >10</text>
+<text x="330.0" y="602.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#64748b" text-anchor="middle" font-weight="700" >NC</text>
+<text x="520.0" y="602.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="normal" >—</text>
+<text x="720.0" y="602.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#94a3b8" text-anchor="middle" font-weight="700" >—</text>
+<text x="960.0" y="602.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#94a3b8" text-anchor="middle" font-weight="700" >—</text>
+<rect x="80" y="608" width="1080" height="22" rx="4" fill="#f1f5f9"/>
+<circle cx="140" cy="619" r="9" fill="#9ca3af"/>
+<text x="140.0" y="622.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="700" >11</text>
+<text x="330.0" y="624.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#64748b" text-anchor="middle" font-weight="700" >TimePulse (PPS)</text>
+<text x="520.0" y="624.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="normal" >—</text>
+<text x="720.0" y="624.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#94a3b8" text-anchor="middle" font-weight="700" >não ligar</text>
+<text x="960.0" y="624.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#94a3b8" text-anchor="middle" font-weight="700" >não ligar</text>
+<circle cx="140" cy="641" r="9" fill="#9ca3af"/>
+<text x="140.0" y="644.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="700" >12</text>
+<text x="330.0" y="646.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#64748b" text-anchor="middle" font-weight="700" >GPSRESET</text>
+<text x="520.0" y="646.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="normal" >—</text>
+<text x="720.0" y="646.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#94a3b8" text-anchor="middle" font-weight="700" >não ligar</text>
+<text x="960.0" y="646.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#94a3b8" text-anchor="middle" font-weight="700" >não ligar</text>
+<rect x="80" y="652" width="1080" height="22" rx="4" fill="#f1f5f9"/>
+<circle cx="140" cy="663" r="9" fill="#9333ea"/>
+<text x="140.0" y="666.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="700" >13</text>
+<text x="330.0" y="668.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#9333ea" text-anchor="middle" font-weight="700" >GPSRXD</text>
+<text x="520.0" y="668.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="normal" >ESP32 → módulo</text>
+<text x="720.0" y="668.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#9333ea" text-anchor="middle" font-weight="700" >GPIO17 (TX)</text>
+<text x="960.0" y="668.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#9333ea" text-anchor="middle" font-weight="700" >GPIO17 (TX)</text>
+<circle cx="140" cy="685" r="9" fill="#9333ea"/>
+<text x="140.0" y="688.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="700" >14</text>
+<text x="330.0" y="690.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#9333ea" text-anchor="middle" font-weight="700" >GPSTXD</text>
+<text x="520.0" y="690.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="normal" >módulo → ESP32</text>
+<text x="720.0" y="690.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#9333ea" text-anchor="middle" font-weight="700" >GPIO16 (RX)</text>
+<text x="960.0" y="690.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#9333ea" text-anchor="middle" font-weight="700" >GPIO18 (RX)</text>
+<text x="80.0" y="734.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#334155" text-anchor="start" font-weight="normal" >Os pinos 1/2 (GND) e 3/4 (+5 V) são duplicados: ligue os dois de cada par. O módulo gera os 3,3 V; não há pino de 3V3 neste conector.</text>
+<text x="80.0" y="756.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#334155" text-anchor="start" font-weight="normal" >TimePulse (11) e GPSRESET (12) não vão ao conector RPi do shield; o firmware espera o PPS já dentro da placa (CONFIG_GW_GPS_PPS_SX1301=y).</text>
+</svg>

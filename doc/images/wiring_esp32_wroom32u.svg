@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="798" viewBox="0 0 1240 798" role="img" aria-label="Ligação ESP32-WROOM-32U DevKit ↔ Radioenge LoRaWAN Gateway">
+<title>Ligação ESP32-WROOM-32U DevKit ↔ Radioenge LoRaWAN Gateway (SX1301)</title>
+<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#d1d5db"/><line x1="0" y1="0" x2="0" y2="6" stroke="#9ca3af" stroke-width="3"/></pattern><filter id="sh" x="-5%" y="-5%" width="110%" height="115%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.18"/></filter><linearGradient id="pcb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e293b"/><stop offset="1" stop-color="#0f172a"/></linearGradient><linearGradient id="pcbS3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e3a5f"/><stop offset="1" stop-color="#0b2540"/></linearGradient><linearGradient id="hat" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#065f46"/><stop offset="1" stop-color="#064e3b"/></linearGradient><linearGradient id="rdg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e3a8a"/><stop offset="1" stop-color="#172554"/></linearGradient></defs>
+<rect x="1" y="1" width="1238" height="796" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+<text x="620.0" y="44.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#0f172a" text-anchor="middle" font-weight="700" >ESP32-WROOM-32U DevKit  ↔  Radioenge LoRaWAN Gateway</text>
+<text x="620.0" y="72.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#475569" text-anchor="middle" font-weight="normal" >Fios SPI curtos (&lt; 15 cm) e de mesmo comprimento · GND comum · lógica de 3,3 V nos dois lados · fonte 5 V / 2 A</text>
+<rect x="90" y="120" width="300" height="550" rx="14" fill="url(#pcb)" filter="url(#sh)"/>
+<rect x="850" y="120" width="300" height="550" rx="14" fill="url(#rdg)" filter="url(#sh)"/>
+<text x="240.0" y="150.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="700" >ESP32-WROOM-32U DevKit</text>
+<text x="240.0" y="170.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#cbd5e1" text-anchor="middle" font-weight="normal" >VSPI · SPI3_HOST · BOARD=esp32</text>
+<text x="1000.0" y="150.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="700" >Radioenge RD43HAT / RD43HATGPS</text>
+<text x="1000.0" y="170.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#bfdbfe" text-anchor="middle" font-weight="normal" >SX1301 + 2× SX1257 · conector RPi 40 pinos</text>
+<text x="620.0" y="194.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#2563eb" text-anchor="middle" font-weight="700" >SPI</text>
+<circle cx="374" cy="230" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="866" cy="230" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<line x1="380" y1="230" x2="860" y2="230" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
+<path d="M660.0 230 l-12 -7 v14 z" fill="#2563eb"/>
+<rect x="599.1" y="205.0" width="41.8" height="18" rx="9.0" fill="#2563eb"/><text x="620.0" y="218.1" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#fff" text-anchor="middle" font-weight="600" >MOSI</text>
+<text x="360.0" y="234.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" fill="#fff" text-anchor="end" font-weight="700" >GPIO23</text>
+<text x="880.0" y="234.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#fff" text-anchor="start" font-weight="700" >19 · MOSI</text>
+<circle cx="374" cy="266" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="866" cy="266" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<line x1="380" y1="266" x2="860" y2="266" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
+<path d="M580.0 266 l12 -7 v14 z" fill="#2563eb"/>
+<rect x="599.1" y="241.0" width="41.8" height="18" rx="9.0" fill="#2563eb"/><text x="620.0" y="254.1" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#fff" text-anchor="middle" font-weight="600" >MISO</text>
+<text x="360.0" y="270.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" fill="#fff" text-anchor="end" font-weight="700" >GPIO19</text>
+<text x="880.0" y="270.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#fff" text-anchor="start" font-weight="700" >21 · MISO</text>
+<circle cx="374" cy="302" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="866" cy="302" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<line x1="380" y1="302" x2="860" y2="302" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
+<path d="M660.0 302 l-12 -7 v14 z" fill="#2563eb"/>
+<rect x="599.1" y="277.0" width="41.8" height="18" rx="9.0" fill="#2563eb"/><text x="620.0" y="290.1" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#fff" text-anchor="middle" font-weight="600" >SCLK</text>
+<text x="360.0" y="306.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" fill="#fff" text-anchor="end" font-weight="700" >GPIO18</text>
+<text x="880.0" y="306.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#fff" text-anchor="start" font-weight="700" >23 · SCLK</text>
+<circle cx="374" cy="338" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="866" cy="338" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<line x1="380" y1="338" x2="860" y2="338" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
+<path d="M660.0 338 l-12 -7 v14 z" fill="#2563eb"/>
+<rect x="583.0" y="313.0" width="74.1" height="18" rx="9.0" fill="#2563eb"/><text x="620.0" y="326.1" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#fff" text-anchor="middle" font-weight="600" >CS SX1301</text>
+<text x="360.0" y="342.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" fill="#fff" text-anchor="end" font-weight="700" >GPIO5</text>
+<text x="880.0" y="342.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#fff" text-anchor="start" font-weight="700" >24 · CE0</text>
+<text x="620.0" y="382.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#ea580c" text-anchor="middle" font-weight="700" >CONTROLE</text>
+<circle cx="374" cy="418" r="6" fill="#ea580c" stroke="#fff" stroke-width="2"/>
+<circle cx="866" cy="418" r="6" fill="#ea580c" stroke="#fff" stroke-width="2"/>
+<line x1="380" y1="418" x2="860" y2="418" stroke="#ea580c" stroke-width="4" stroke-linecap="round"/>
+<path d="M660.0 418 l-12 -7 v14 z" fill="#ea580c"/>
+<rect x="531.4" y="393.0" width="177.2" height="18" rx="9.0" fill="#ea580c"/><text x="620.0" y="406.1" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#fff" text-anchor="middle" font-weight="600" >RESET SX1301 (ativo alto)</text>
+<text x="360.0" y="422.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" fill="#fff" text-anchor="end" font-weight="700" >GPIO4</text>
+<text x="880.0" y="422.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#fff" text-anchor="start" font-weight="700" >26 · RESET</text>
+<text x="620.0" y="462.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#9333ea" text-anchor="middle" font-weight="700" >GPS (OPCIONAL · RD43HATGPS)</text>
+<circle cx="374" cy="498" r="6" fill="#9333ea" stroke="#fff" stroke-width="2"/>
+<circle cx="866" cy="498" r="6" fill="#9333ea" stroke="#fff" stroke-width="2"/>
+<line x1="380" y1="498" x2="860" y2="498" stroke="#9333ea" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 6"/>
+<path d="M660.0 498 l-12 -7 v14 z" fill="#9333ea"/>
+<rect x="573.3" y="473.0" width="93.4" height="18" rx="9.0" fill="#9333ea"/><text x="620.0" y="486.1" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#fff" text-anchor="middle" font-weight="600" >TX → GPS RXD</text>
+<text x="360.0" y="502.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" fill="#fff" text-anchor="end" font-weight="700" >GPIO17</text>
+<text x="880.0" y="502.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#fff" text-anchor="start" font-weight="700" >8 · TXD</text>
+<circle cx="374" cy="534" r="6" fill="#9333ea" stroke="#fff" stroke-width="2"/>
+<circle cx="866" cy="534" r="6" fill="#9333ea" stroke="#fff" stroke-width="2"/>
+<line x1="380" y1="534" x2="860" y2="534" stroke="#9333ea" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 6"/>
+<path d="M580.0 534 l12 -7 v14 z" fill="#9333ea"/>
+<rect x="573.3" y="509.0" width="93.4" height="18" rx="9.0" fill="#9333ea"/><text x="620.0" y="522.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#fff" text-anchor="middle" font-weight="600" >RX ← GPS TXD</text>
+<text x="360.0" y="538.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" fill="#fff" text-anchor="end" font-weight="700" >GPIO16</text>
+<text x="880.0" y="538.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#fff" text-anchor="start" font-weight="700" >10 · RXD</text>
+<text x="620.0" y="578.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#dc2626" text-anchor="middle" font-weight="700" >ENERGIA</text>
+<circle cx="374" cy="614" r="6" fill="#dc2626" stroke="#fff" stroke-width="2"/>
+<circle cx="866" cy="614" r="6" fill="#dc2626" stroke="#fff" stroke-width="2"/>
+<line x1="380" y1="614" x2="860" y2="614" stroke="#dc2626" stroke-width="4" stroke-linecap="round"/>
+<path d="M660.0 614 l-12 -7 v14 z" fill="#dc2626"/>
+<rect x="602.3" y="589.0" width="35.4" height="18" rx="9.0" fill="#dc2626"/><text x="620.0" y="602.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#fff" text-anchor="middle" font-weight="600" >5 V</text>
+<text x="360.0" y="618.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" fill="#fff" text-anchor="end" font-weight="700" >5V/VIN</text>
+<text x="880.0" y="618.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#fff" text-anchor="start" font-weight="700" >2/4 · 5V</text>
+<circle cx="374" cy="650" r="6" fill="#1f2937" stroke="#fff" stroke-width="2"/>
+<circle cx="866" cy="650" r="6" fill="#1f2937" stroke="#fff" stroke-width="2"/>
+<line x1="380" y1="650" x2="860" y2="650" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+<rect x="602.3" y="625.0" width="35.4" height="18" rx="9.0" fill="#1f2937"/><text x="620.0" y="638.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#fff" text-anchor="middle" font-weight="600" >GND</text>
+<text x="360.0" y="654.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" fill="#fff" text-anchor="end" font-weight="700" >GND</text>
+<text x="880.0" y="654.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#fff" text-anchor="start" font-weight="700" >6 · GND</text>
+<text x="240.0" y="710.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#334155" text-anchor="middle" font-weight="600" >Antena Wi-Fi externa (u.FL)</text>
+<text x="240.0" y="732.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#b45309" text-anchor="middle" font-weight="700" >Não ligar: 3V3 do conector (pinos 1 e 17)</text>
+<text x="1000.0" y="710.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#334155" text-anchor="middle" font-weight="600" >Antena LoRa 902–928 MHz (SMA, até 6 dBi)</text>
+<text x="1000.0" y="732.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#dc2626" text-anchor="middle" font-weight="700" >Nunca ligar sem antena no conector LoRa!</text>
+<text x="620.0" y="766.0" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#475569" text-anchor="middle" font-weight="normal" >RAK2245: o mesmo fio de RESET vai ao pino 11 · OLED SSD1306 opcional só no ESP32 (SDA GPIO21 · SCL GPIO22)</text>
+</svg>

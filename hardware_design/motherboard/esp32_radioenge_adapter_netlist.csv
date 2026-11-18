@@ -1,0 +1,20 @@
+rede,J1 (pino do conector RPi),U1 esp32 (ESP32-WROOM-32U),U1 esp32s3_n16r8 (ESP32-S3-WROOM-1U-N16R8),U1 esp32s3_n32r16v (ESP32-S3-WROOM-2-N32R16V),outros
+MOSI,19,GPIO23,GPIO11,GPIO11,
+MISO,21,GPIO19,GPIO13,GPIO13,
+SCLK,23,GPIO18,GPIO12,GPIO12,
+CS_SX1301,24,GPIO5,GPIO10,GPIO10,"R2 (10 kΩ pull-up para 3V3_DEVKIT, opcional)"
+RESET_SX1301,— (via JP2),GPIO4,GPIO6,GPIO6,"JP2.2 (comum); R1 (10 kΩ pull-down, opcional); ativo alto"
+RESET_J1_26,26,,,,JP2.1 (posição Radioenge)
+RESET_J1_11,11,,,,JP2.3 (posição RAK2245)
+GPS_RXD,8,GPIO17,GPIO17,GPIO17,TX do ESP32 → RX do GPS (só RD43HATGPS)
+GPS_TXD,10,GPIO16,GPIO18,GPIO18,TX do GPS → RX do ESP32 (só RD43HATGPS)
+I2C_SDA,— (não ligar ao J1),GPIO21,GPIO4,GPIO4,J3.4 (OLED SDA)
+I2C_SCL,— (não ligar ao J1),GPIO22,GPIO5,GPIO5,J3.3 (OLED SCL)
++5V,"2, 4",,,,F1.2; C1+; C2; JP1.1
++5V_DEVKIT,,5V / VIN,5V,5V,JP1.2
++5V_IN,,,,,J2 (pino central do jack DC); F1.1
+3V3_DEVKIT,— (NÃO ligar aos pinos 1 e 17),3V3,3V3,3V3,J3.1 (OLED VCC); R2
+GND,"6, 9, 14, 20, 25, 30, 34, 39",GND,GND,GND,J2 (corpo); C1−; C2; R1; J3.2
+NC,"1, 17 (3V3 gerado na Radioenge)",,,,não ligar
+NC,"3, 5 (I2C do Raspberry Pi)",,,,não ligar: a HAL do SX1301 não usa I2C
+NC,os demais,,,,não ligar
